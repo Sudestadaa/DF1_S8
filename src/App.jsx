@@ -24,7 +24,7 @@ export function App() {
         setLoading(true);
         await new Promise((resolve) => setTimeout(resolve, 800));
         
-        const response = await fetch('/data/products.json');
+        const response = await fetch(`${import.meta.env.BASE_URL}data/products.json`);
         if (!response.ok) {
           throw new Error('Error al cargar la base de datos de productos');
         }
