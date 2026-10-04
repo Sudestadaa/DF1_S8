@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "title": "Cyberpunk 2077: Phantom Liberty",
+    "category": "RPG",
+    "price": 29990,
+    "rating": 4.8,
+    "image": "https://static.cdprojektred.com/cms.cdprojektred.com/16x9_big/56c9f65d12f0e9e7d16c7d47d1d00991d04dcca6-1280x720.jpg",
+    "description": "Sumérgete en la aventura de espionaje y suspenso en el distrito de Dogtown."
+  },
+  {
+    "id": 2,
+    "title": "Elden Ring: Shadow of the Erdtree",
+    "category": "Acción / RPG",
+    "price": 34990,
+    "rating": 4.9,
+    "image": "https://static.bandainamcoent.eu/high/elden-ring/elden-ring/03-news/ER-SOTE-announcement.jpg",
+    "description": "Explora la Tierra de las Sombras y enfrenta desafíos de nivel pesadilla."
+  },
+  {
+    "id": 3,
+    "title": "Resident Evil 4 Remake",
+    "category": "Terror",
+    "price": 24990,
+    "rating": 4.9,
+    "image": "https://www.lavanguardia.com/files/image_948_465/uploads/2022/06/03/62993e2303a2c.jpeg",
+    "description": "Sobrevive a la pesadilla biológica en este clásico reinventado."
+  },
+  {
+    "id": 4,
+    "title": "Silent Hill 2 Remake",
+    "category": "Terror",
+    "price": 39990,
+    "rating": 4.7,
+    "image": "https://static.wikia.nocookie.net/silenthill/images/4/48/SH2R.jpg/revision/latest?cb=20221029143023&path-prefix=es",
+    "description": "Experimenta una lección magistral de terror psicológico en un pueblo envuelto en niebla."
+  },
+  {
+    "id": 5,
+    "title": "Doom Eternal",
+    "category": "Shooter",
+    "price": 14990,
+    "rating": 4.8,
+    "image": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/782330/3efb12f884eaee39b4853721f5cf1c6e2b706495/capsule_616x353.jpg?t=1783432602",
+    "description": "Destruye a los demonios en una intensa batalla por la salvación de la Tierra."
+  },
+  {
+    "id": 6,
+    "title": "Hollow Knight: Silksong",
+    "category": "Metroidvania",
+    "price": 12990,
+    "rating": 5.0,
+    "image": "https://www.hd-tecnologia.com/imagenes/articulos/2025/08/Los-creadores-de-Hollow-Knight-explican-por-que-el-desarrollo-de-Silksong-tardo-siete-anos.jpg",
+    "description": "Asciende a la cima de un reino embrujado gobernado por la seda y la canción."
+  }
+]
