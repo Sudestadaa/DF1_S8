@@ -1,19 +1,61 @@
-# React + Vite
+#  Nightmare Digital - Tienda Online de Videojuegos
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Nightmare Digital** es una plataforma e-commerce interactiva desarrollada en **React** y **Vite**, diseñada para ofrecer una experiencia rápida y fluida en la exploración y compra simulada de videojuegos digitales.
 
-Currently, two official plugins are available:
+**Demo en vivo:** [https://sudestadaa.github.io/DF1_S8/](https://sudestadaa.github.io/DF1_S8/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## Funcionalidades Principales
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+- **Catálogo Dinámico:** Carga asíncrona de datos desde un archivo JSON (`products.json`).
+- **Búsqueda en Tiempo Real:** Filtro reactivo por nombre de juego.
+- **Filtrado por Categorías:** Clasificación por géneros (Acción, RPG, Terror, Shooter, etc.).
+- **Carrito de Compras Completo:**
+  - Agregar productos al carrito.
+  - Modificar cantidades e incrementar/decrementar ítems.
+  - Eliminación de productos individuales y opción de vaciar el carrito.
+  - Cálculo automático del total a pagar.
+- **Feedback Visual:** Spinner de carga durante la obtención de datos y notificaciones *Toast* interactivas.
+- **Diseño Responsive:** Adaptado para dispositivos móviles, tablets y escritorio con temática oscura *Nightmare*.
 
-Note: This will impact Vite dev & build performances.
-You can also try [the experimental native React Compiler support in plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md#rust-react-compiler) by using `compiler: true` in the plugin options instead of using the Babel plugin.
+---
 
-## Expanding the ESLint configuration
+## Tecnologías Utilizadas
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Frontend:** React 18
+- **Herramienta de Construcción:** Vite
+- **Estilos:** CSS3 nativo (CSS Modules / Global Styles)
+- **Despliegue y CI/CD:** GitHub Pages & GitHub Actions
+
+---
+
+## Instrucciones de Instalación y Uso Local
+
+Sigue estos pasos para ejecutar el proyecto en tu máquina local:
+
+### Requisitos previos
+- Tener instalado **Node.js** (versión 18 o superior).
+- Tener instalado **Git**.
+
+### Pasos de Ejecución
+
+1. **Clonar el repositorio:**
+   
+   git clone [https://github.com/sudestadaa/DF1_S8.git](https://github.com/sudestadaa/DF1_S8.git)
+
+2. **Ingresar al directorio del proyecto:**
+
+   cd DF1_S8
+
+3. **Instalar las dependencias:**
+
+   npm install
+
+5. **Iniciar el servidor de desarrollo:**
+
+   npm run dev
+   
+6. **Abrir en el navegador:**
+
+   Usualmente la terminal da la dirección http://localhost:5173
